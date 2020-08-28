@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    CZESC NACISNIJ MYSZKE ABY ZACZAC
+    <script src="p5.js"></script>
+    <script src="Box.js"></script>
+</head>
+<body>
+<script>
+
+    var sponge = [];
+    var Width = 1300;
+    var Height = 700;
+    var flags=0;
+
+    function setup() {
+        createCanvas(Width,Height, WEBGL);
+        normalMaterial();
+        translate(Width/2,Height/2)
+        var b = new Box(0,0,0,252);
+        sponge.push(b)
+
+    }
+    function mousePressed(){
+        var next = [];
+        for (var i = 0; i < sponge.length; i++) {
+            var b = sponge[i];
+            var newBoxes = b.generate();
+            next = next.concat(newBoxes);
+        }
+        sponge = next;
+    }
+    function draw() {
+        background(200);
+        //stroke(255);
+        lights();
+        //noFill();
+        rotateX(frameCount * 0.01);
+        rotateY(frameCount * 0.01);
+        for(x of sponge)
+        {
+            x.show();
+        }
+
+    }
+
+</script>
+</body>
+</html>
