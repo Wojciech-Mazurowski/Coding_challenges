@@ -112,7 +112,7 @@
       <workItem from="1598735225271" duration="765000" />
       <workItem from="1598747117169" duration="211000" />
       <workItem from="1598804802787" duration="1665000" />
-      <workItem from="1598811836468" duration="2810000" />
+      <workItem from="1598811836468" duration="3402000" />
     </task>
     <task id="LOCAL-00001" summary="Menger Sponge lazy algorithm">
       <created>1598652388909</created>
@@ -149,7 +149,14 @@
       <option name="project" value="LOCAL" />
       <updated>1598806438288</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Snake game is done, at least i think so.">
+      <created>1598814804167</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1598814804167</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -172,7 +179,8 @@
     <MESSAGE value="started a snake project" />
     <MESSAGE value="update" />
     <MESSAGE value="snake can now eat" />
-    <option name="LAST_COMMIT_MESSAGE" value="snake can now eat" />
+    <MESSAGE value="Snake game is done, at least i think so." />
+    <option name="LAST_COMMIT_MESSAGE" value="Snake game is done, at least i think so." />
   </component>
   <component name="WindowStateProjectService">
     <state x="757" y="309" key="#Web_Browsers" timestamp="1598645668562">
@@ -275,17 +283,5 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1598714947592" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/p5_js/snake.js</url>
-          <line>47</line>
-          <properties lambdaOrdinal="-1" />
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

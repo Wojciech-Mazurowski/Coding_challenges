@@ -44,11 +44,11 @@ class Snake {
 
     death() {
         for (let i = 0; i < this.body.length; i++) {
-            if (dist(this.body[i].x, this.body[i].y, this.x, this.y) < 1) {
+            if (dist(this.body[i].x, this.body[i].y, this.x, this.y) < 1) { //death by intersecting with your body
                 return true;
             }
         }
-        return this.x >= width || this.y >= height || this.x < 0 || this.y < 0;
+        return this.x >= width || this.y >= height || this.x < 0 || this.y < 0; // death by going out of screen
     }
 }
 
@@ -65,6 +65,7 @@ function setup() {
     frameRate(10);
     s = new Snake(30);
     FoodRandomizer();
+    textSize(20);
 
 }
 
@@ -82,6 +83,8 @@ function draw() {
 
     if (!s.death()) {
         background(30);
+        fill(255);
+        text("score: " + s.length.toString(),width-100,30);
         s.update();
         s.show();
 
@@ -96,6 +99,7 @@ function draw() {
         s.y =10*s.size;
         s.length =0;
         s.body = [];
+        FoodRandomizer();
     }
 
 }
