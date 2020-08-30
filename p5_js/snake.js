@@ -11,25 +11,21 @@ class Snake {
 
     update() {  //movement of snake
 
-        if(this.length === this.body.length)
-        {
+        if (this.length === this.body.length) {
             for (let i = 0; i < this.body.length - 1; i++) {
-                this.body[i] = this.body[i + 1];
+                this.body[i] = this.body[i + 1];        //updating body length and its positions
             }
         }
         this.body[this.length - 1] = createVector(this.x, this.y);
-
-
         this.x = this.x + this.xspeed * this.size;
         this.y = this.y + this.yspeed * this.size;
 
-        this.x = constrain(this.x, 0, width - this.size);
-        this.y = constrain(this.y, 0, height - this.size);
+
     }
 
     show() { //drawing snake
-        for (let i = 0; i < this.body.length ; i++) {
-            fill(0,255,0);
+        for (let i = 0; i < this.body.length; i++) {
+            fill(0, 255, 0);
             square(this.body[i].x, this.body[i].y, this.size);
         }
         fill(0, 255, 0);
@@ -44,6 +40,15 @@ class Snake {
 
     eat(Food_pos) {
         return dist(this.x, this.y, Food_pos.x, Food_pos.y) < 1;
+    }
+
+    death() {
+        for (let i = 0; i < this.body.length; i++) {
+            if (dist(this.body[i].x, this.body[i].y, this.x, this.y) < 1) {
+                return true;
+            }
+        }
+        return this.x >= width || this.y >= height || this.x < 0 || this.y < 0;
     }
 }
 
@@ -74,16 +79,24 @@ function FoodRandomizer() {
 
 function draw() {
 
-    background(30);
-    s.update();
-    s.show();
 
-    if (s.eat(food)) {
-        s.length++;
-        FoodRandomizer();
+    if (!s.death()) {
+        background(30);
+        s.update();
+        s.show();
+
+        if (s.eat(food)) {
+            s.length++;
+            FoodRandomizer();
+        }
+        fill(255, 0, 0);
+        square(food.x, food.y, s.size);
+    }else{
+        s.x =10*s.size;
+        s.y =10*s.size;
+        s.length =0;
+        s.body = [];
     }
-    fill(255, 0, 0);
-    square(food.x, food.y, s.size);
 
 }
 
