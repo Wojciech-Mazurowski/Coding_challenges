@@ -5,9 +5,21 @@ class Snake {
         this.xspeed = 1;
         this.yspeed = 0;
         this.size = size;
+        this.length = 0;
+        this.body = [];
     }
 
     update() {  //movement of snake
+
+        if(this.length === this.body.length)
+        {
+            for (let i = 0; i < this.body.length - 1; i++) {
+                this.body[i] = this.body[i + 1];
+            }
+        }
+        this.body[this.length - 1] = createVector(this.x, this.y);
+
+
         this.x = this.x + this.xspeed * this.size;
         this.y = this.y + this.yspeed * this.size;
 
@@ -16,6 +28,10 @@ class Snake {
     }
 
     show() { //drawing snake
+        for (let i = 0; i < this.body.length ; i++) {
+            fill(0,255,0);
+            square(this.body[i].x, this.body[i].y, this.size);
+        }
         fill(0, 255, 0);
         square(this.x, this.y, this.size);
     }
@@ -48,11 +64,10 @@ function setup() {
 }
 
 function FoodRandomizer() {
-    rows = floor(height / s.size);
-    cols = floor(width / s.size);
-    food = createVector(floor(random(cols)),floor(random(rows)));
+    let rows = floor(height / s.size);
+    let cols = floor(width / s.size);
+    food = createVector(floor(random(cols)), floor(random(rows)));
     food.mult(s.size);
-
 
 
 }
@@ -60,12 +75,14 @@ function FoodRandomizer() {
 function draw() {
 
     background(30);
-    s.show();
     s.update();
-    if(s.eat(food))
-    {
+    s.show();
+
+    if (s.eat(food)) {
+        s.length++;
         FoodRandomizer();
     }
+    fill(255, 0, 0);
     square(food.x, food.y, s.size);
 
 }
