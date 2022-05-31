@@ -1,29 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BranchesTreeState">
-    <expand>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-    </expand>
+    <expand />
     <select />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="651d59f9-ed8f-412a-9d4c-7b80b3f44f2d" name="Default Changelist" comment="Menger Sponge lazy algorithm">
-      <change afterPath="$PROJECT_DIR$/p5_js/Maze.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/p5_js/MazeGenerator.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/p5_js/fun/fun.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/p5_js/fun/gridBuilder.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/coding_challenge.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/coding_challenge.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/p5_js/SnakeGame.html" beforeDir="false" afterPath="$PROJECT_DIR$/p5_js/SnakeGame.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/p5_js/Maze.js" beforeDir="false" afterPath="$PROJECT_DIR$/p5_js/Maze.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/p5_js/addons/libraries/p5-test.js" beforeDir="false" afterPath="$PROJECT_DIR$/p5_js/addons/libraries/p5-test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/p5_js/addons/libraries/p5.js" beforeDir="false" afterPath="$PROJECT_DIR$/p5_js/addons/libraries/p5.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/p5_js/addons/libraries/p5.pre-min.js" beforeDir="false" afterPath="$PROJECT_DIR$/p5_js/addons/libraries/p5.pre-min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/p5_js/addons/libraries/p5.sound.js" beforeDir="false" afterPath="$PROJECT_DIR$/p5_js/addons/libraries/p5.sound.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,41 +50,46 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/p5_js/addons" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
+    <property name="settings.editor.selected.configurable" value="JavaScript.Libraries" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Wojtus\WebstormProjects\coding_challenge\p5_js" />
       <recent name="C:\Users\Wojtus\WebstormProjects\coding_challenge\p5_js\addons\libraries" />
       <recent name="C:\Users\Wojtus\WebstormProjects\coding_challenge\StarField\empty-example" />
       <recent name="C:\Users\Wojtus\WebstormProjects\coding_challenge\StarField" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Wojtus\WebstormProjects\coding_challenge\p5_js\addons" />
+    </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.MazeGenerator.html">
-    <configuration name="MazeGenerator.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/coding_challenge/p5_js/MazeGenerator.html" useBuiltInWebServerPort="true">
+  <component name="RunManager" selected="JavaScript Debug.fun.html">
+    <configuration name="MazeGenerator.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/coding_challenge/p5_js/MazeGenerator.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="Menger Sponge.html (1)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/coding_challenge/p5_js/Menger Sponge.html" useBuiltInWebServerPort="true">
+    <configuration name="Menger Sponge.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/coding_challenge/p5_js/Menger Sponge.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="Simulator.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/coding_challenge/p5_js/Simulator.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="SnakeGame.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/coding_challenge/p5_js/SnakeGame.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="Maze.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/p5_js/Maze.js" working-dir="$PROJECT_DIR$/p5_js">
-      <method v="2" />
-    </configuration>
-    <configuration name="snake.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/p5_js/snake.js" working-dir="$PROJECT_DIR$/p5_js">
+    <configuration name="fun.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/coding_challenge/p5_js/fun/fun.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JavaScript Debug.MazeGenerator.html" />
-        <item itemvalue="Node.js.Maze.js" />
+        <item itemvalue="JavaScript Debug.fun.html" />
+        <item itemvalue="JavaScript Debug.Simulator.html" />
         <item itemvalue="JavaScript Debug.SnakeGame.html" />
-        <item itemvalue="Node.js.snake.js" />
-        <item itemvalue="JavaScript Debug.Menger Sponge.html (1)" />
+        <item itemvalue="JavaScript Debug.Menger Sponge.html" />
+        <item itemvalue="JavaScript Debug.MazeGenerator.html" />
       </list>
     </recent_temporary>
   </component>
@@ -116,6 +113,43 @@
       <workItem from="1598804802787" duration="1665000" />
       <workItem from="1598811836468" duration="4120000" />
       <workItem from="1598881161208" duration="2061000" />
+      <workItem from="1598896016686" duration="10089000" />
+      <workItem from="1599231069451" duration="974000" />
+      <workItem from="1599524649458" duration="353000" />
+      <workItem from="1603197624760" duration="5000" />
+      <workItem from="1604510282591" duration="26000" />
+      <workItem from="1614011067481" duration="562000" />
+      <workItem from="1614011640569" duration="596000" />
+      <workItem from="1614012247901" duration="1761000" />
+      <workItem from="1615750060889" duration="603000" />
+      <workItem from="1616098988319" duration="5452000" />
+      <workItem from="1616179190411" duration="196000" />
+      <workItem from="1617002791776" duration="2033000" />
+      <workItem from="1617023651039" duration="966000" />
+      <workItem from="1617805017608" duration="22811000" />
+      <workItem from="1617837932456" duration="81000" />
+      <workItem from="1617889049209" duration="4778000" />
+      <workItem from="1617893946669" duration="6926000" />
+      <workItem from="1617917228563" duration="605000" />
+      <workItem from="1618017010542" duration="141000" />
+      <workItem from="1618071090134" duration="191000" />
+      <workItem from="1618167803746" duration="1201000" />
+      <workItem from="1619005314884" duration="625000" />
+      <workItem from="1619438303653" duration="527000" />
+      <workItem from="1619442901603" duration="788000" />
+      <workItem from="1621782218440" duration="389000" />
+      <workItem from="1621798648941" duration="936000" />
+      <workItem from="1621801084781" duration="671000" />
+      <workItem from="1621862230834" duration="1059000" />
+      <workItem from="1621942227577" duration="256000" />
+      <workItem from="1621968204956" duration="959000" />
+      <workItem from="1622055537946" duration="67000" />
+      <workItem from="1635192490624" duration="680000" />
+      <workItem from="1638040958149" duration="11000" />
+      <workItem from="1645824106680" duration="7403000" />
+      <workItem from="1647603057029" duration="32000" />
+      <workItem from="1647881154783" duration="61000" />
+      <workItem from="1653948555953" duration="408000" />
     </task>
     <task id="LOCAL-00001" summary="Menger Sponge lazy algorithm">
       <created>1598652388909</created>
@@ -166,7 +200,14 @@
       <option name="project" value="LOCAL" />
       <updated>1598815445002</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Day3: Maze generator :O">
+      <created>1598896129015</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1598896129015</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -175,11 +216,41 @@
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
+        <entry key="1">
+          <value>
+            <State>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="structure">
+                    <value>
+                      <list>
+                        <option value="dir:C:/Users/Wojtus/WebstormProjects/coding_challenge/p5_js/addons" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
         <entry key="MAIN">
           <value>
             <State />
           </value>
         </entry>
+      </map>
+    </option>
+    <option name="OPEN_GENERIC_TABS">
+      <map>
+        <entry key="1" value="TOOL_WINDOW" />
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
@@ -190,108 +261,66 @@
     <MESSAGE value="update" />
     <MESSAGE value="snake can now eat" />
     <MESSAGE value="Snake game is done, at least i think so." />
-    <option name="LAST_COMMIT_MESSAGE" value="Snake game is done, at least i think so." />
+    <MESSAGE value="Day3: Maze generator :O" />
+    <option name="LAST_COMMIT_MESSAGE" value="Day3: Maze generator :O" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="757" y="309" key="#Web_Browsers" timestamp="1598645668562">
+    <state width="1899" height="183" key="GridCell.Tab.0.bottom" timestamp="1645831583319">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="757" y="309" key="#Web_Browsers/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1598645668562" />
-    <state x="718" y="390" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1598652078636">
+    <state width="1899" height="183" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1645831583319" />
+    <state width="1899" height="183" key="GridCell.Tab.0.center" timestamp="1645831583318">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="718" y="390" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1598652078636" />
-    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1598652588195">
+    <state width="1899" height="183" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1645831583318" />
+    <state width="1899" height="183" key="GridCell.Tab.0.left" timestamp="1645831583318">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1598652588195" />
-    <state x="784" y="440" key="Github.CreateGistDialog" timestamp="1598652179362">
+    <state width="1899" height="183" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1645831583318" />
+    <state width="1899" height="183" key="GridCell.Tab.0.right" timestamp="1645831583319">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="784" y="440" key="Github.CreateGistDialog/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1598652179362" />
-    <state x="819" y="418" key="Github.ShareDialog" timestamp="1598652827664">
+    <state width="1899" height="183" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1645831583319" />
+    <state width="1899" height="183" key="GridCell.Tab.1.bottom" timestamp="1645831583319">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="819" y="418" key="Github.ShareDialog/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1598652827664" />
-    <state width="1899" height="282" key="GridCell.Tab.0.bottom" timestamp="1598883230964">
+    <state width="1899" height="183" key="GridCell.Tab.1.bottom/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1645831583319" />
+    <state width="1899" height="183" key="GridCell.Tab.1.center" timestamp="1645831583319">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1598883230964" />
-    <state width="1899" height="282" key="GridCell.Tab.0.center" timestamp="1598883230964">
+    <state width="1899" height="183" key="GridCell.Tab.1.center/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1645831583319" />
+    <state width="1899" height="183" key="GridCell.Tab.1.left" timestamp="1645831583319">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1598883230964" />
-    <state width="1899" height="282" key="GridCell.Tab.0.left" timestamp="1598883230963">
+    <state width="1899" height="183" key="GridCell.Tab.1.left/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1645831583319" />
+    <state width="1899" height="183" key="GridCell.Tab.1.right" timestamp="1645831583319">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1598883230963" />
-    <state width="1899" height="282" key="GridCell.Tab.0.right" timestamp="1598883230964">
+    <state width="1899" height="183" key="GridCell.Tab.1.right/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1645831583319" />
+    <state width="1899" height="183" key="GridCell.Tab.2.bottom" timestamp="1645831583319">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1598883230964" />
-    <state width="1899" height="348" key="GridCell.Tab.1.bottom" timestamp="1598883230958">
+    <state width="1899" height="183" key="GridCell.Tab.2.bottom/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1645831583319" />
+    <state width="1899" height="183" key="GridCell.Tab.2.center" timestamp="1645831583319">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1598883230958" />
-    <state width="1899" height="348" key="GridCell.Tab.1.center" timestamp="1598883230958">
+    <state width="1899" height="183" key="GridCell.Tab.2.center/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1645831583319" />
+    <state width="1899" height="183" key="GridCell.Tab.2.left" timestamp="1645831583319">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="348" key="GridCell.Tab.1.center/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1598883230958" />
-    <state width="1899" height="348" key="GridCell.Tab.1.left" timestamp="1598883230958">
+    <state width="1899" height="183" key="GridCell.Tab.2.left/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1645831583319" />
+    <state width="1899" height="183" key="GridCell.Tab.2.right" timestamp="1645831583319">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="348" key="GridCell.Tab.1.left/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1598883230958" />
-    <state width="1899" height="348" key="GridCell.Tab.1.right" timestamp="1598883230958">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1899" height="348" key="GridCell.Tab.1.right/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1598883230958" />
-    <state width="1899" height="348" key="GridCell.Tab.2.bottom" timestamp="1598883230958">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1899" height="348" key="GridCell.Tab.2.bottom/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1598883230958" />
-    <state width="1899" height="348" key="GridCell.Tab.2.center" timestamp="1598883230958">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1899" height="348" key="GridCell.Tab.2.center/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1598883230958" />
-    <state width="1899" height="348" key="GridCell.Tab.2.left" timestamp="1598883230958">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1899" height="348" key="GridCell.Tab.2.left/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1598883230958" />
-    <state width="1899" height="348" key="GridCell.Tab.2.right" timestamp="1598883230958">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1899" height="348" key="GridCell.Tab.2.right/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1598883230958" />
-    <state width="1899" height="348" key="GridCell.Tab.3.bottom" timestamp="1598882431773">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1899" height="348" key="GridCell.Tab.3.bottom/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1598882431773" />
-    <state width="1899" height="348" key="GridCell.Tab.3.center" timestamp="1598882431773">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1899" height="348" key="GridCell.Tab.3.center/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1598882431773" />
-    <state width="1899" height="348" key="GridCell.Tab.3.left" timestamp="1598882431773">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1899" height="348" key="GridCell.Tab.3.left/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1598882431773" />
-    <state width="1899" height="348" key="GridCell.Tab.3.right" timestamp="1598882431773">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1899" height="348" key="GridCell.Tab.3.right/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1598882431773" />
-    <state x="461" y="165" key="SettingsEditor" timestamp="1598652659588">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="461" y="165" key="SettingsEditor/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1598652659588" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1598815540555">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1598815540555" />
-    <state x="513" y="249" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1598646059249">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="513" y="249" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1598646059249" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1598714947592">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1598714947592" />
+    <state width="1899" height="183" key="GridCell.Tab.2.right/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1645831583319" />
+  </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="JavascriptDebugType">
+        <watch expression="this.grid" language="JavaScript" />
+        <watch expression="grid" language="JavaScript" />
+        <watch expression="Number.isInteger(8)" language="JavaScript" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>

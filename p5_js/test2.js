@@ -1,0 +1,1 @@
+fetch('https://cors-demo.glitch.me/', {mode:'cors'})

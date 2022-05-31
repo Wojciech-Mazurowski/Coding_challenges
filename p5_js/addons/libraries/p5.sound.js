@@ -12,7 +12,7 @@
  *  <li><a href="#/p5.FFT"><b>p5.FFT</b></a>: Analyze the frequency of sound. Returns
  *    results from the frequency spectrum or time domain (waveform).</li>
  *  <li><a href="#/p5.Oscillator"><b>p5.Oscillator</b></a>: Generate Sine,
- *    Triangle, Square and Sawtooth waveforms. Base class of
+ *    Triangle, CSquare and Sawtooth waveforms. Base class of
  *    <li><a href="#/p5.Noise">p5.Noise</a> and <a href="#/p5.Pulse">p5.Pulse</a>.
  *    </li>
  *  <li>
@@ -1947,7 +1947,7 @@ var __WEBPACK_AMD_DEFINE_RESULT__;
   p5.SawOsc.prototype = Object.create(p5.Oscillator.prototype);
   /**
    *  Constructor: <code>new p5.SqrOsc()</code>.
-   *  This creates a Square Wave Oscillator and is
+   *  This creates a CSquare Wave Oscillator and is
    *  equivalent to <code> new p5.Oscillator('square')
    *  </code> or creating a p5.Oscillator and then calling
    *  its method <code>setType('square')</code>.
